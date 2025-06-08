@@ -17,8 +17,8 @@ import {
   mongodb,
   mealList,
   nhlrosters,
-  hacienda,
   matching,
+  simpleworx,
   microverse,
 } from '../assets';
 
@@ -200,8 +200,8 @@ const projects = [
   },
   {
     id: 'project-3',
-    name: 'Hacienda',
-    description: 'Authentic Mexican Cuisine in Richmond, California',
+    name: 'SimpleWorkX',
+    description: 'Industrial Maintenance web application for workers to stay updated and aware of all the work orders in the system.',
     tags: [
       {
         name: 'nextjs',
@@ -216,9 +216,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: hacienda,
-    repo: '',
-    demo: 'https://hacienda-dr.netlify.app/',
+    image: simpleworx,
+    repo: 'https://github.com/drader622/SimpleWorX',
+    demo: 'https://simpleworx-4b92af93fce6.herokuapp.com/',
   },
   {
     id: 'project-4',

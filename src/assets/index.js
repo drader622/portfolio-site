@@ -41,6 +41,7 @@ import mealList from './projects/meal-list-app.png';
 import nhlrosters from './projects/hockey.png';
 import hacienda from './projects/hacienda.png';
 import matching from './projects/matching.png';
+import simpleworx from './projects/simpleworx.png';
 
 export {
   logo,
@@ -55,6 +56,7 @@ export {
   nhlrosters,
   hacienda,
   matching,
+  simpleworx,
   menu,
   resume,
   send,
