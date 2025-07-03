@@ -40,25 +40,31 @@
 .headshot {
    height: 34rem;
    width: 26rem;
-   bottom: 13rem;
+   /* bottom: 13rem; */
    display: block;
    border-radius: 100%;
 }
 
-@media (max-width:1250px) {
+@media (max-width: 1250px) {
    .headshot {
       height: 24rem;
       width: 18rem;
-      bottom: 24rem;
+      /* bottom: 24rem; */
    }
 }
 
-@media (max-width:770px) {
+@media (max-width: 1020px) {
    .headshot {
-   border: 1px solid red;
-   display: none;
+      bottom: 13rem;
    }
+}
 
+@media (max-width: 770px) {
+   .headshot {
+      border: 1px solid red;
+      display: none;
+      bottom: 13rem;
+   }
 }
 
 .nav-links::after {
